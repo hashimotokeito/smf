@@ -1,0 +1,145 @@
+@charset "UTF-8";
+.artist-img img{
+  width:500px;
+}
+.artist{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+.artist-exp{
+  width: 30%;
+  background-color: #fff;
+  padding: 40px;
+}
+.artist-exp h3{
+  font-size: 25px;
+}
+.artist-exp p{
+  margin-top: 30px;
+}
+.pickup-artists{
+  width: 100%;
+  background-color: cadetblue;
+  padding-top: 100px;
+  padding-bottom: 200px;
+  z-index: 0;
+}
+.artists-inner{
+  width: 65%;
+  margin: 0 auto
+}
+.artists-ttl p{
+  margin-top: 30px;
+}
+.artists-ttl h1{
+  font-size: 25px;
+}
+.artists-ttl h1:before{
+  content: "";
+  border-left: solid 7px rgb(96, 172, 243);
+  margin-right: 5px;
+}
+.back1{
+  background-image: url(..//img/back01.png);
+  background-position: right 30px top;
+  z-index: 3;
+}
+
+@media screen and (max-width:480px){
+  .artist{
+    display: block;
+  }
+  .artist-img img{
+    width: 100%;
+    
+  }
+  .artist-exp{
+    width: 90%;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .artists-contents{
+    width: 100%;
+  }
+  .artists-inner{
+    width: 90%;
+  }
+  .artists-ttl{
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+
+@media screen and (max-width:1025px) and (min-width:1000px) {
+  .artist{
+    display: block;
+  }
+  .artist-img img{
+    width: 80%;
+    margin-left: 90px;
+  }
+  .artist-exp{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto 0;
+  }
+  .artists-contents{
+    width: 100%;
+  }
+  .artists-inner{
+    width: 90%;
+  }
+  .artists-ttl{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .artists-ttl h1{
+    font-size: 33px;
+  }
+  .artists-ttl p{
+    font-size: 20px;
+  }
+  .artist-img{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:770px) and (min-width:700px) {
+  .artist{
+    display: block;
+  }
+  .artist-img img{
+    width: 80%;
+    margin-left: 70px;
+  }
+  .artist-exp{
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 40px auto 0;
+  }
+  .artists-contents{
+    width: 100%;
+  }
+  .artists-inner{
+    width: 90%;
+  }
+  .artists-ttl{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .artists-ttl h1{
+    font-size: 33px;
+  }
+  .artists-ttl p{
+    font-size: 20px;
+  }
+  .artist-img{
+    width: 100%;
+  }
+}

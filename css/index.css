@@ -1,0 +1,156 @@
+@charset "UTF-8";
+.top-page{
+  height: 600px;
+  border-bottom: black solid 2px;
+  background-color: darkseagreen;
+}
+.top-img img{
+  width: 350px;
+  margin-top: 60px;
+}
+.top-all{
+  display: flex;
+  justify-content: space-around;
+}
+.font1{
+  margin-top: 130px;
+  font-size: 70px;
+  line-height: 1.8;
+  margin-right: 80px;
+  color: rgb(252, 71, 6);
+}
+.font2{
+  font-size: 30px;
+  padding-top: 130px;
+}
+.introduction{
+  width: 100%;
+  height: 600px;
+  background: rgb(46, 116, 247);
+}
+.introduction-txt h2{
+  width: 70%;
+  margin: 0 auto;
+}
+button{
+  width: 15%;
+  padding: 20px 0;
+  background-color: coral;
+  border-radius: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+}
+button a{
+  font-size: 25px;
+  color: #fff;
+  font-weight: normal;
+  display: block;
+}
+.category-item{
+  display: flex;
+
+}
+.category{
+  background: rgb(211, 211, 109);
+  height: 700px;
+  padding-top: 100px;
+}
+.category-inner{
+  width: 85%;
+  margin: 0 auto;
+}
+.category-ttl h2{
+  font-size: 30px;
+  text-align: center;
+}
+.category-content{
+  width: 15%;
+  margin:70px;
+  padding-top: 30px;
+  border: 4px black;
+}
+.category-txt p{
+  margin-top: 20px;
+   font-weight:normal;
+}
+.category-txt h3{
+  font-size: 20px;
+  border-bottom: solid 5px coral;
+  display: inline-block;
+  text-align: center;
+}
+.category-txt{
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 20px;
+}
+@media screen and (max-width:1025px) and (min-width:1000px) {
+  .category-content{
+    width: 30%
+ }
+ .category-item{
+   flex-wrap: wrap;
+   width: 100%;
+   margin-left: 30px;
+   margin-top: 50px;
+ }
+ .category{
+   height: 1500px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+  .top-all{
+    display: block;
+  }
+  .font1{
+    line-height: 0.5;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .top-page{
+    height: 800px;
+  }
+  .font2{
+    font-size: 20px;
+  }
+  button{
+    width: 70%;
+  }
+  .category-item{
+    display: block;
+  }
+  .category-txt{
+    width: 300%;
+  }
+  .category-img img{
+    width: 380%;
+    margin: 0 auto;
+  }
+  .category{
+    height: 2200px;
+  }
+}
+@media screen and (max-width:770px) and (min-width:700px) {
+  .category-content{
+    width: 25%
+ }
+ .category-item{
+   flex-wrap: wrap;
+   width: 100%;
+   margin-left: 30px;
+   margin-top: 50px;
+ }
+ .category{
+   height: 1500px;
+ }
+ .font1{
+   font-size: 50px;
+ }
+}
+
+
+
