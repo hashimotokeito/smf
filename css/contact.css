@@ -31,9 +31,6 @@ main{
 input{
   width: 60%;
 }
-textarea{
-  width:60% ;
-}
 .contact_form_box2{
   margin-left: 14px;
 }
@@ -43,7 +40,7 @@ button{
   border-radius: 10px;
 }
 .contact-ttl p{
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 150px;
 }
 .contact-ttl h1{
@@ -97,10 +94,9 @@ button{
     margin-top: 15px;
     width: 70%;
   }
-  .contact{
+  .contact-inner{
     background: #fff;
     width: 90%;
-    margin: 0 auto;
     padding: 40px 0;
     border-radius: 30px;
   }
@@ -111,26 +107,34 @@ button{
   .twitter-img img{
     margin: initial;
   }
+  .contact_form_box2{
+    margin: initial;
+    margin-top: 15px;
+  }
+  .contact_box{
+    text-align: initial;
+    margin-right: 20px;
+  }
 }
 
 @media screen and (max-width:1025px) and (min-width:1000px) {
   main{
     height: 1800px;
   }
-  .contact{
+  .contact-inner{
     background: #fff;
-    width: 80%;
+    width: 70%;
     margin: 150px auto 0;
     padding: 100px 0;
     border-radius: 50px;
   }
   .twitter-img{
-    width: 50%;
+    width: 34%;
   }
 
 }
 @media screen and (max-width:770px) and (min-width:700px) {
-  .contact{
+  .contact-inner{
     background: #fff;
     width: 80%;
     margin: 250px auto 0;
