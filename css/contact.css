@@ -54,8 +54,42 @@ button{
   border-left: solid 7px rgb(96, 172, 243);
   margin-right: 8px;
 }
+.contact-inner{
+  background: #fff;
+    width: 60%;
+    margin: 150px auto 0;
+    padding: 100px 0 200px;
+    border-radius: 50px;
+}
+.twitter{
+  width: 100%;
+}
+.twitter-txt{
+  text-align: center;
+  margin-top: 180px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.twitter-txt:before{
+  content: "";
+  border-left:solid 5px coral;
+  margin-right: 8px;
+}
+.twitter-img{
+  width: 28%;
+  text-align: center;
+  margin:50px auto 0;
+  background-color: #fff;
+  padding: 20px 0 55px;
+  border-radius: 125px;
+  box-shadow: 4px 4px 4px rgb(128, 126, 126);
+}
+.twitter-img img{
+  width: 70%;
+  margin-top: 40px;
+}
 .contact-ttl{
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
 }
 @media screen and (max-width:480px) {
@@ -70,19 +104,30 @@ button{
     padding: 40px 0;
     border-radius: 30px;
   }
+  .twitter-img{
+    height: 3px;
+    width: 23%;
+  }
+  .twitter-img img{
+    margin: initial;
+  }
 }
 
 @media screen and (max-width:1025px) and (min-width:1000px) {
   main{
-    height: 1300px;
+    height: 1800px;
   }
   .contact{
     background: #fff;
     width: 80%;
-    margin: 250px auto 0;
+    margin: 150px auto 0;
     padding: 100px 0;
     border-radius: 50px;
   }
+  .twitter-img{
+    width: 50%;
+  }
+
 }
 @media screen and (max-width:770px) and (min-width:700px) {
   .contact{
@@ -91,6 +136,9 @@ button{
     margin: 250px auto 0;
     padding: 100px 0;
     border-radius: 50px;
+  }
+  .twitter-img{
+    width: 42%;
   }
   
 }
